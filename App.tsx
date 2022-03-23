@@ -17,6 +17,7 @@ import {
   Text,
   useColorScheme,
   View,
+  Button,
 } from 'react-native';
 
 import {
@@ -88,6 +89,7 @@ const App = () => {
           </Section>
           <LearnMoreLinks />
         </View>
+        <Button title="Test" color="black" />
       </ScrollView>
     </SafeAreaView>
   );
